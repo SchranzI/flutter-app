@@ -112,7 +112,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     style: const TextStyle(fontWeight: FontWeight.bold)),
                 const Divider(
                   color: Colors.black,
-                  height: 130,
+                  height: 150,
                   indent: 50,
                   endIndent: 50,
                   thickness: 2,
@@ -346,7 +346,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               Text(list[_currentIndex]["right"],
                                   textAlign: TextAlign.center,
                                   style: const TextStyle(
-                                    fontSize: 17,
+                                      fontSize: 17,
                                       fontWeight: FontWeight.bold)),
                             ],
                           ))),
